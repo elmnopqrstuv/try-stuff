@@ -1,0 +1,11 @@
+body{
+    margin: auto;
+    padding: auto;
+}
+
+.h1{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: solid aliceblue;
+}

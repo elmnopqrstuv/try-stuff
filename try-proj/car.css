@@ -1,0 +1,123 @@
+body {
+    display: flex;
+       flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: palevioletred;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    cursor: crosshair;
+    overflow: hidden;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.box {
+    background-color: white;
+    color: black;
+    padding: 5rem 5rem;
+    border-radius: 5px;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}   
+.box:hover {
+    background-color: transparent;
+    color: white;
+    cursor: crosshair;
+    transform: scale(1.1);
+    
+}
+.box:active {
+    transform: scale(0.95);
+    transition: transform 0.1s;
+}
+#b1 {
+    background-image: url(images/cat-cat-with-tongue.gif);
+    background-size: cover;
+    border: 5px solid rgb(0, 153, 153);
+}
+#b1:hover {
+    background-image: url(images/cry2.gif);
+    background-size: cover;
+    border: 3px solid rgb(0, 153, 153);
+}
+#b1:active {
+    background-image: url(images/cry1.gif);
+    background-size: cover;
+    border: 2px solid rgb(0, 153, 153);
+}
+#b2 {
+    background-image: url(images/c2.gif);
+    background-size: cover;
+    border: 5px solid rgb(204, 0, 0);
+}
+#b2:hover {
+    background-image: url(images/cry2.gif);
+    background-size: cover;
+    border: 3px solid rgb(204, 0, 0);
+}
+#b2:active {
+    background-image: url(images/cry1.gif);
+    background-size: cover;
+    border: 2px solid rgb(204, 0, 0);
+}
+#b3 {
+    background-image: url(images/c3.gif);
+    background-size: cover;
+    border: 5px solid rgb(255, 102, 0);
+}
+#b3:hover {
+    background-image: url(images/cry2.gif);
+    background-size: cover;
+    border: 3px solid rgb(255, 102, 0);
+}
+#b3:active {
+    background-image: url(images/cry1.gif);
+    background-size: cover;
+    border: 2px solid rgb(255, 102, 0);
+}
+#b4 {
+    background-image: url(images/c4.gif);
+    background-size: cover;
+    border: 5px solid rgb(102, 204, 0);
+}
+#b4:hover {
+    background-image: url(images/cry2.gif);
+    background-size: cover;
+    border: 3px solid rgb(102, 204, 0);
+}
+#b4:active {
+    background-image: url(images/cry1.gif);
+    background-size: cover;
+    border: 2px solid rgb(102, 204, 0);
+}
+#b5 {
+    background-image: url(images/c5.gif);
+    background-size: cover;
+    border: 5px solid rgb(0, 102, 204);
+}
+#b5:hover {
+    background-image: url(images/cry2.gif);
+    background-size: cover;
+    border: 3px solid rgb(0, 102, 204);
+}
+#b5:active {
+    background-image: url(images/cry1.gif);
+    background-size: cover;
+    border: 2px solid rgb(0, 102, 204);
+}
